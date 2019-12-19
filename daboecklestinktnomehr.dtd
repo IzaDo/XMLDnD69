@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT tournament (person|tournamentday)*>
+        <!ELEMENT person (#PCDATA)>
+        <!ATTLIST person
+                birthday CDATA #REQUIRED
+                country CDATA #REQUIRED
+                email CDATA #REQUIRED
+                fname CDATA #REQUIRED
+                gender ( M| F) #REQUIRED
+                id ID #REQUIRED
+                lname CDATA #REQUIRED
+                shootingstyle (FU| BB| FS| BH| BU| BL |LB |HB |TR) #REQUIRED>
+        <!ELEMENT tournamentday (group)+>
+        <!ATTLIST tournamentday
+                date CDATA #REQUIRED
+                roundname (Field_Round| Hunter_Round | Animal_Round_Marked| Animal_Round_Unmarked) #REQUIRED>
+        <!ELEMENT group (competitor)+>
+        <!ATTLIST group
+                id ID #REQUIRED>
+        <!ELEMENT competitor (scorecard)>
+        <!ATTLIST competitor
+                person_id IDREF #REQUIRED
+                role (target_captain| score_writer) #REQUIRED>
+        <!ELEMENT scorecard (station)+>
+        <!ELEMENT station (Scorentry)>
+        <!ELEMENT Scorentry (#PCDATA)>
+        <!ATTLIST Scorentry
+                points CDATA #REQUIRED>
+
