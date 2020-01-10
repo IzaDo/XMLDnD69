@@ -10,20 +10,22 @@
                 id ID #REQUIRED
                 lname CDATA #REQUIRED
                 shootingstyle (FU| BB| FS| BH| BU| BL |LB |HB |TR) #REQUIRED>
-        <!ELEMENT tournamentday (group)+>
+
+        <!ELEMENT tournamentday (group+)>
         <!ATTLIST tournamentday
                 date CDATA #REQUIRED
                 roundname (Field_Round| Hunter_Round | Animal_Round_Marked| Animal_Round_Unmarked) #REQUIRED>
-        <!ELEMENT group (competitor)+>
+        <!ELEMENT group (competitor+)>
         <!ATTLIST group
                 id ID #REQUIRED>
         <!ELEMENT competitor (scorecard)>
         <!ATTLIST competitor
                 person_id IDREF #REQUIRED
-                role (target_captain| score_writer) #REQUIRED>
-        <!ELEMENT scorecard (station)+>
-        <!ELEMENT station (Scorentry)>
+                role (target_captain| score_writer) #IMPLIED>
+        <!ELEMENT scorecard (station+)>
+        <!ATTLIST scorecard
+                totalscore CDATA #REQUIRED >
+        <!ELEMENT station (Scorentry+)>
         <!ELEMENT Scorentry (#PCDATA)>
         <!ATTLIST Scorentry
                 points CDATA #REQUIRED>
-

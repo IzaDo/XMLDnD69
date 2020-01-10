@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tournament SYSTEM "tournament.dtd">
+<!-- TEAM: Andreas Schmidt, Dominik Böckle, MArc Niernberger, Nino Heinzle, Victoria Hofinger-->
+<tournament>
+<!-- Stammdaten -->
+<person id="p1" shootingstyle="BB"  lname="Gerhalter" fname="Gusti" country="Austria" gender="M" birthday="22.01.1973" email="maxmusterman@email.com"/>
+<person id="p2" shootingstyle="FU" lname="Amman" fname="Adam" country="Germany" gender="M" birthday="29.02.1933" email="Ammanmustermen@email.com"/>
+<person id="p3" shootingstyle="HB"  lname="Emmerich" fname="Elisabeth " country="Estland" gender="F" birthday="21.12.1999" email="E@email.co"/>
+<person id="p4" shootingstyle="HB"  lname="Daniel " fname="Doppelmayr " country="Russia" gender="F" birthday="23.12.1992" email="E@email.co"/>
+    <person id="p5" shootingstyle="BB"  lname="Berta" fname="Bertsch" country="Belgium" gender="F" birthday="22.01.1973" email="maxmusterman@email.com"/>
+    <person id="p6" shootingstyle="FU" lname="Frida" fname="Fröhlich" country="French" gender="M" birthday="29.02.1933" email="Ammanmustermen@email.com"/>
+    <person id="p7" shootingstyle="HB"  lname="Hermine" fname="Huber" country="Hungary" gender="F" birthday="21.12.1999" email="E@email.co"/>
+    <person id="p8" shootingstyle="HB"  lname="Christof" fname="Coen" country="China" gender="F" birthday="23.12.1992" email="E@email.co"/>
+<!-- Stammdaten Ende -->
+
+    <tournamentday date="20.12.2019" roundname="Field_Round">
+    <group id="g1">
+        <competitor person_id="p1"  role = "target_captain"> <!-- Enumeration -->
+            <scorecard totalscore="100">
+
+                <station>
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="8" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="25" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="22" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p2"  role = "score_writer"> <!-- Enumeration -->
+            <scorecard totalscore="150">
+
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p3"  role = "score_writer"> <!-- Enumeration -->
+            <scorecard totalscore="222">
+
+                <station>
+                    <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="3" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p4" > <!-- Enumeration -->
+            <scorecard totalscore="90">
+
+                <station>
+                    <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+    </group>
+
+    <group id="g2">
+        <competitor person_id="p5"  role = "target_captain"> <!-- Enumeration -->
+            <scorecard totalscore="112">
+
+                <station>
+                    <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p6"  role = "score_writer"> <!-- Enumeration -->
+            <scorecard totalscore="95">
+                <station>
+                    <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="1" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p7"  role = "score_writer"> <!-- Enumeration -->
+            <scorecard totalscore="80">
+
+                <station>
+                    <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+
+        <competitor person_id="p8" > <!-- Enumeration -->
+            <scorecard totalscore="10">
+                <station>
+                    <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+                <station>
+                    <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="30" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+                <station>
+                    <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                </station>
+
+            </scorecard>
+        </competitor>
+    </group>
+</tournamentday>
+    
+    <tournamentday date="21.12.2019" roundname="Field_Round">
+        <group id="g3">
+            <competitor person_id="p1"  role = "target_captain"> <!-- Enumeration -->
+                <scorecard totalscore="100">
+                    
+                    <station>
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="8" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="25" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="22" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p2"  role = "score_writer"> <!-- Enumeration -->
+                <scorecard totalscore="150">
+                    
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p3"  role = "score_writer"> <!-- Enumeration -->
+                <scorecard totalscore="222">
+                    
+                    <station>
+                        <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="3" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p5" > <!-- Enumeration -->
+                <scorecard totalscore="90">
+                    
+                    <station>
+                        <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="4" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+        </group>
+        
+        <group id="g4">
+            <competitor person_id="p4"  role = "target_captain"> <!-- Enumeration -->
+                <scorecard totalscore="112">
+                    
+                    <station>
+                        <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p6"  role = "score_writer"> <!-- Enumeration -->
+                <scorecard totalscore="95">
+                    <station>
+                        <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="1" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="2" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p7"  role = "score_writer"> <!-- Enumeration -->
+                <scorecard totalscore="80">
+                    
+                    <station>
+                        <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="11" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="13" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="14" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+            
+            <competitor person_id="p8" > <!-- Enumeration -->
+                <scorecard totalscore="10">
+                    <station>
+                        <Scorentry points="42" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    <station>
+                        <Scorentry points="0" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="20" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="10" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="30" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="40" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                    <station>
+                        <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="41" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="21" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                        <Scorentry points="12" /><!-- Auch nicht getroffene Pfeile sind wichtig -->
+                    </station>
+                    
+                </scorecard>
+            </competitor>
+        </group>
+    </tournamentday>
+    
+</tournament>
